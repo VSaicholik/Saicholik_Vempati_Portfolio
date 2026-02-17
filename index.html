@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sai Cholik | Data Analyst Portfolio</title>
+  <meta name="description" content="Sai Cholik portfolio - data analyst focused on dashboards, forecasting, and business insights.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="bg-orb orb-1" aria-hidden="true"></div>
+  <div class="bg-orb orb-2" aria-hidden="true"></div>
+  <div class="grid-noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#">
+        <span class="brand-mark">SC</span>
+        <span class="brand-name">Sai Cholik</span>
+      </a>
+
+      <nav class="main-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="ping-btn" href="#contact">Ping Me</a>
+        <button id="themeBtn" class="theme-btn" aria-label="Toggle dark and light mode">
+          <span id="themeIcon">Moon</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Data Analyst | CMU Graduate Student</p>
+        <h1>
+          I turn complex data into
+          <span class="text-gradient">clear business actions</span>.
+        </h1>
+        <p class="lead">
+          I build dashboards, clean high-volume datasets, run regression and forecasting, and deliver insights teams can use quickly.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-ghost" href="assets/resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+        </div>
+
+        <div class="quick-stats">
+          <div class="stat-card">
+            <p class="stat-label">Records Analyzed</p>
+            <p class="stat-value">227K+</p>
+          </div>
+          <div class="stat-card">
+            <p class="stat-label">Dashboard Focus</p>
+            <p class="stat-value">Tableau + BI</p>
+          </div>
+          <div class="stat-card">
+            <p class="stat-label">Location</p>
+            <p class="stat-value">Michigan, USA</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-media reveal" id="tiltCard">
+        <div class="photo-frame">
+          <img src="assets/saicholik.png" alt="Portrait of Sai Cholik">
+        </div>
+        <div class="media-badge badge-a">Open to Data Analyst and BI roles</div>
+        <div class="media-badge badge-b">SQL | Python | Tableau | R</div>
+      </div>
+    </section>
+
+    <section id="about" class="section reveal">
+      <div class="section-head">
+        <h2>About Me</h2>
+      </div>
+      <div class="panel">
+        <p>
+          I enjoy turning raw operational data into understandable stories. My recent work includes usage analytics on large log files, dashboard development, and optimization-driven forecasting projects. I focus on outputs that are accurate, practical, and easy for non-technical stakeholders to act on.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-head reveal">
+        <h2>Skills That Create Impact</h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <div class="skill-top">
+            <h3 class="skill-title"><i class="fa-solid fa-database skill-icon" aria-hidden="true"></i>SQL and Data Modeling</h3>
+            <span>Advanced</span>
+          </div>
+          <p>Query optimization, joins, schema design, and reporting-ready pipelines.</p>
+          <div class="skill-meter">
+            <span class="skill-fill" data-fill="92"></span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-top">
+            <h3 class="skill-title"><i class="fa-brands fa-python skill-icon" aria-hidden="true"></i>Python Analytics</h3>
+            <span>Advanced</span>
+          </div>
+          <p>Pandas, cleaning workflows, exploratory analysis, and model preparation.</p>
+          <div class="skill-meter">
+            <span class="skill-fill" data-fill="88"></span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-top">
+            <h3 class="skill-title"><i class="fa-solid fa-chart-column skill-icon" aria-hidden="true"></i>Tableau and BI</h3>
+            <span>Advanced</span>
+          </div>
+          <p>Interactive dashboards, filtering logic, and business storytelling.</p>
+          <div class="skill-meter">
+            <span class="skill-fill" data-fill="90"></span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-top">
+            <h3 class="skill-title"><i class="fa-brands fa-r-project skill-icon" aria-hidden="true"></i>R and Statistical Analysis</h3>
+            <span>Strong</span>
+          </div>
+          <p>Regression, trend analysis, and research-focused data workflows.</p>
+          <div class="skill-meter">
+            <span class="skill-fill" data-fill="82"></span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-top">
+            <h3 class="skill-title"><i class="fa-solid fa-chart-line skill-icon" aria-hidden="true"></i>Forecasting and Optimization</h3>
+            <span>Strong</span>
+          </div>
+          <p>Scenario simulation, sensitivity analysis, and recommendation models.</p>
+          <div class="skill-meter">
+            <span class="skill-fill" data-fill="84"></span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-top">
+            <h3 class="skill-title"><i class="fa-solid fa-file-excel skill-icon" aria-hidden="true"></i>Excel and Reporting</h3>
+            <span>Advanced</span>
+          </div>
+          <p>KPI tracking, business reporting, and decision support artifacts.</p>
+          <div class="skill-meter">
+            <span class="skill-fill" data-fill="89"></span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-head reveal">
+        <h2>Featured Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-banner banner-1 with-image">
+            <img class="project-cover-image" src="assets/Picture1.jpg" alt="Donation Management System login screen">
+            <span>Donation System</span>
+          </div>
+          <div class="project-body">
+            <h3>Donation and Charity Management System</h3>
+            <p>Built a structured database process to replace manual logs and improve reporting quality.</p>
+            <a href="https://github.com/VSaicholik" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-banner banner-2">
+            <span>The 2-Degree Blueprint</span>
+          </div>
+          <div class="project-body">
+            <h3>Climate Forecasting and Optimization</h3>
+            <p>Modeled long-range scenarios with regression, sensitivity analysis, and optimization logic.</p>
+            <a href="https://github.com/VSaicholik" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-banner banner-3">
+            <span>VDI Log Analytics</span>
+          </div>
+          <div class="project-body">
+            <h3>System Usage Analysis in R</h3>
+            <p>Analyzed 227,386 records to identify demand peaks and guide capacity planning decisions.</p>
+            <a href="https://github.com/VSaicholik" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-banner banner-4">
+            <span>Business Analytics in R</span>
+          </div>
+          <div class="project-body">
+            <h3>Business Data Analytics using R</h3>
+            <p>Integrated multi-region data and analyzed shipping performance and profitability metrics.</p>
+            <a href="https://github.com/VSaicholik" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-banner banner-5">
+            <span>Tableau Dashboards</span>
+          </div>
+          <div class="project-body">
+            <h3>Global Work Hours and Productivity</h3>
+            <p>Created interactive dashboards for country-level and region-level productivity insights.</p>
+            <a href="https://github.com/VSaicholik" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-banner banner-6">
+            <span>Airbnb Insights</span>
+          </div>
+          <div class="project-body">
+            <h3>Airbnb Market Analysis</h3>
+            <p>Built pricing and availability views with map-based exploration and user filters.</p>
+            <a href="https://github.com/VSaicholik" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <div class="section-head reveal">
+        <h2>Certifications</h2>
+      </div>
+
+      <div class="cert-grid">
+        <article class="cert-card reveal">
+          <h3>Google Data Analytics Professional Certificate</h3>
+          <p>Core analytics workflow, data cleaning, SQL, visualization, and business storytelling.</p>
+          <a href="https://www.coursera.org/account/accomplishments/professional-cert/F4R15WIVOD06" target="_blank" rel="noopener">View Certification</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-head reveal">
+        <h2>Contact</h2>
+      </div>
+
+      <div class="contact-wrap">
+        <div class="panel contact-panel reveal">
+          <p><strong>Name:</strong> Sai Cholik</p>
+          <p><strong>Email:</strong> <a href="mailto:saicholikvempati@gmail.com">saicholikvempati@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+19895728478">+1 (989) 572-8478</a></p>
+          <p><strong>Location:</strong> Michigan, United States</p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/saicholik-vempati-59a091328" target="_blank" rel="noopener">linkedin.com/in/saicholik-vempati-59a091328</a></p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/VSaicholik" target="_blank" rel="noopener">github.com/VSaicholik</a></p>
+          <p><strong>Resume:</strong> <a href="assets/resume.pdf" target="_blank" rel="noopener">Open Resume (PDF)</a></p>
+          <p><strong>Availability:</strong> Open to Data Analyst and BI opportunities</p>
+        </div>
+
+        <form class="note-form reveal" id="noteForm" action="https://formspree.io/f/mbdayaoy" method="POST">
+          <h3>Leave a Note for Me</h3>
+          <p>Your message will be sent directly to my email via Formspree.</p>
+
+          <input type="hidden" name="_subject" value="New Portfolio Message">
+          <input type="hidden" name="_next" value="https://vsaicholik.github.io/Saicholik_Vempati_Portfolio/">
+
+          <div class="field">
+            <label for="name">Your Name</label>
+            <input id="name" name="name" type="text" required>
+          </div>
+
+          <div class="field">
+            <label for="email">Your Email</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+
+          <div class="field">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" required>
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+
+          <button class="btn btn-primary send-btn" type="submit">Send Message</button>
+          <p class="form-note">After submit, your message is forwarded to my email inbox.</p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      (c) <span id="year"></span> Sai Cholik | Built with HTML, CSS, and JavaScript
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
