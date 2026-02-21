@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sai Cholik | Data Analyst Portfolio</title>
+  <meta name="description" content="Sai Cholik portfolio - data analyst focused on dashboards, forecasting, and business insights.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="bg-orb orb-1" aria-hidden="true"></div>
+  <div class="bg-orb orb-2" aria-hidden="true"></div>
+  <div class="grid-noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#">
+        <span class="brand-mark">
+          <img src="assets/saicholik.png" alt="Sai Cholik profile">
+        </span>
+        <span class="brand-name">Sai Cholik</span>
+      </a>
+
+      <nav class="main-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="ping-btn" id="headerContactBtn" type="button">Contact Me</button>
+        <button id="themeBtn" class="theme-btn" aria-label="Switch color theme">
+          <span id="themeIcon" class="theme-glyph" aria-hidden="true"><i class="fa-solid fa-moon"></i></span>
+          <span id="themeText" class="theme-text">Dark</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Data Analyst | CMU Graduate Student</p>
+        <h1>
+          I turn complex data into
+          <span class="text-gradient">clear business actions</span>.
+        </h1>
+        <p class="lead">
+          I build dashboards, clean high-volume datasets, run regression and forecasting, and deliver insights teams can use quickly.
+        </p>
+        <p class="lead">Open to Remote, Hybrid, and Relocation opportunities.</p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-ghost" href="assets/resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+        </div>
+
+        <div class="quick-stats">
+          <div class="stat-card">
+            <p class="stat-label">Records Analyzed</p>
+            <p class="stat-value">227K+</p>
+          </div>
+          <div class="stat-card">
+            <p class="stat-label">Dashboard Focus</p>
+            <p class="stat-value">Tableau + BI</p>
+          </div>
+          <div class="stat-card">
+            <p class="stat-label">Location</p>
+            <p class="stat-value">Michigan, USA</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-media reveal" id="tiltCard">
+        <div class="photo-frame">
+          <img src="assets/saicholik.png" alt="Portrait of Sai Cholik">
+        </div>
+        <div class="media-badge badge-a">Open to Data Analyst and BI roles</div>
+        <div class="media-badge badge-b">SQL | Python | Tableau | R</div>
+      </div>
+    </section>
+
+    <section id="about" class="section reveal">
+      <div class="section-head">
+        <h2>About Me</h2>
+      </div>
+      <div class="panel">
+        <p>
+          I enjoy turning raw operational data into understandable stories. My recent work includes usage analytics on large log files, dashboard development, and optimization-driven forecasting projects. I focus on outputs that are accurate, practical, and easy for non-technical stakeholders to act on.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-head reveal">
+        <h2>Skills That Create Impact</h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <div class="skill-top">
+            <h3 class="skill-title"><i class="fa-solid fa-database skill-icon" aria-hidden="true"></i>SQL and Data Modeling</h3>
+            <span>Advanced</span>
+          </div>
+          <p>Query optimization, joins, schema design, and reporting-ready pipelines.</p>
+          <div class="skill-meter">
+            <span class="skill-fill" data-fill="92"></span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-top">
+            <h3 class="skill-title"><i class="fa-brands fa-python skill-icon" aria-hidden="true"></i>Python Analytics</h3>
+            <span>Advanced</span>
+          </div>
+          <p>Pandas, cleaning workflows, exploratory analysis, and model preparation.</p>
+          <div class="skill-meter">
+            <span class="skill-fill" data-fill="88"></span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-top">
+            <h3 class="skill-title"><i class="fa-solid fa-chart-column skill-icon" aria-hidden="true"></i>Tableau and BI</h3>
+            <span>Advanced</span>
+          </div>
+          <p>Interactive dashboards, filtering logic, and business storytelling.</p>
+          <div class="skill-meter">
+            <span class="skill-fill" data-fill="90"></span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-top">
+            <h3 class="skill-title"><i class="fa-brands fa-r-project skill-icon" aria-hidden="true"></i>R and Statistical Analysis</h3>
+            <span>Strong</span>
+          </div>
+          <p>Regression, trend analysis, and research-focused data workflows.</p>
+          <div class="skill-meter">
+            <span class="skill-fill" data-fill="82"></span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-top">
+            <h3 class="skill-title"><i class="fa-solid fa-chart-line skill-icon" aria-hidden="true"></i>Forecasting and Optimization</h3>
+            <span>Strong</span>
+          </div>
+          <p>Scenario simulation, sensitivity analysis, and recommendation models.</p>
+          <div class="skill-meter">
+            <span class="skill-fill" data-fill="84"></span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-top">
+            <h3 class="skill-title"><i class="fa-solid fa-file-excel skill-icon" aria-hidden="true"></i>Excel and Reporting</h3>
+            <span>Advanced</span>
+          </div>
+          <p>KPI tracking, business reporting, and decision support artifacts.</p>
+          <div class="skill-meter">
+            <span class="skill-fill" data-fill="89"></span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-head reveal">
+        <h2>Featured Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-banner banner-1 with-image">
+            <img class="project-cover-image" src="assets/Picture1.jpg" alt="Donation Management System login screen">
+            <span>Donation System</span>
+          </div>
+          <div class="project-body">
+            <h3>Donation and Charity Management System</h3>
+            <p>Built a structured database process to replace manual logs and improve reporting quality.</p>
+            <a href="https://github.com/VSaicholik" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-banner banner-2">
+            <span>The 2-Degree Blueprint</span>
+          </div>
+          <div class="project-body">
+            <h3>Climate Forecasting and Optimization</h3>
+            <p>Modeled long-range scenarios with regression, sensitivity analysis, and optimization logic.</p>
+            <a href="https://github.com/VSaicholik" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-banner banner-3">
+            <span>VDI Log Analytics</span>
+          </div>
+          <div class="project-body">
+            <h3>System Usage Analysis in R</h3>
+            <p>Analyzed 227,386 records to identify demand peaks and guide capacity planning decisions.</p>
+            <a href="https://github.com/VSaicholik" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-banner banner-4">
+            <span>Business Analytics in R</span>
+          </div>
+          <div class="project-body">
+            <h3>Business Data Analytics using R</h3>
+            <p>Integrated multi-region data and analyzed shipping performance and profitability metrics.</p>
+            <a href="https://github.com/VSaicholik" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-banner banner-5 with-image">
+            <img class="project-cover-image" src="assets/tableau group projecyt.png" alt="Global work intensity, productivity, and retirement trends dashboard screenshot">
+            <span>Tableau Dashboards</span>
+          </div>
+          <div class="project-body">
+            <h3>Global Work Hours and Productivity</h3>
+            <p>Created interactive dashboards for country-level and region-level productivity insights.</p>
+            <a href="https://github.com/VSaicholik" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-banner banner-6 with-image">
+            <img class="project-cover-image" src="assets/airbnd screenshot.png" alt="Airbnb analysis dashboard screenshot">
+            <span>Airbnb Insights</span>
+          </div>
+          <div class="project-body">
+            <h3>Airbnb Market Analysis</h3>
+            <p>Built pricing and availability views with map-based exploration and user filters.</p>
+            <a href="https://github.com/VSaicholik" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <div class="section-head reveal">
+        <h2>Certifications</h2>
+      </div>
+
+      <div class="cert-grid">
+        <article class="cert-card reveal">
+          <div class="cert-top">
+            <span class="cert-logo google-badge" aria-hidden="true"><i class="fa-brands fa-google"></i></span>
+            <div class="cert-meta">
+              <span>Coursera</span>
+              <span>Professional Certificate</span>
+            </div>
+          </div>
+          <h3>Google Data Analytics Professional Certificate</h3>
+          <p>Core analytics workflow, data cleaning, SQL, visualization, and business storytelling.</p>
+          <a href="https://www.coursera.org/account/accomplishments/professional-cert/F4R15WIVOD06" target="_blank" rel="noopener">
+            <i class="fa-solid fa-certificate" aria-hidden="true"></i>
+            View Certification
+          </a>
+        </article>
+        <article class="cert-card reveal">
+          <div class="cert-top">
+            <span class="cert-logo excel-badge" aria-hidden="true"><i class="fa-solid fa-file-excel"></i></span>
+            <div class="cert-meta">
+              <span>Coursera</span>
+              <span>Course Certificate</span>
+            </div>
+          </div>
+          <h3>Excel Basics for Data Analysis</h3>
+          <p>Spreadsheet fundamentals for analysis, including formulas, data preparation, and practical reporting.</p>
+          <a href="https://www.coursera.org/account/accomplishments/verify/Y41BFOPHFHYW" target="_blank" rel="noopener">
+            <i class="fa-solid fa-certificate" aria-hidden="true"></i>
+            View Certification
+          </a>
+        </article>
+        <article class="cert-card reveal">
+          <div class="cert-top">
+            <span class="cert-logo cloud-badge" aria-hidden="true"><i class="fa-solid fa-cloud"></i></span>
+            <div class="cert-meta">
+              <span>Coursera</span>
+              <span>Professional Certificate</span>
+            </div>
+          </div>
+          <h3>Google Cloud Data Analytics</h3>
+          <p>Cloud-based analytics workflows using Google Cloud tools for data processing, exploration, and insights.</p>
+          <a href="https://www.coursera.org/account/accomplishments/professional-cert/certificate/B83JH5K267BV" target="_blank" rel="noopener">
+            <i class="fa-solid fa-certificate" aria-hidden="true"></i>
+            View Certification
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-head reveal">
+        <h2>Contact</h2>
+      </div>
+
+      <div class="contact-wrap">
+        <div class="panel contact-panel reveal">
+          <div class="contact-info-grid">
+            <span class="contact-chip">
+              <i class="fa-solid fa-user" aria-hidden="true"></i>
+              Sai Cholik
+            </span>
+            <a class="contact-chip" href="mailto:saicholikvempati@gmail.com">
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              saicholikvempati@gmail.com
+            </a>
+            <a class="contact-chip" href="tel:+19895728478">
+              <i class="fa-solid fa-phone" aria-hidden="true"></i>
+              +1 (989) 572-8478
+            </a>
+            <span class="contact-chip">
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              Michigan, United States
+            </span>
+            <a class="contact-chip" href="https://www.linkedin.com/in/saicholik-vempati-59a091328" target="_blank" rel="noopener">
+              <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+              LinkedIn Profile
+            </a>
+            <a class="contact-chip" href="https://github.com/VSaicholik" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+              GitHub Portfolio
+            </a>
+            <a class="contact-chip" href="assets/resume.pdf" target="_blank" rel="noopener">
+              <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+              Download Resume
+            </a>
+            <span class="contact-chip">
+              <i class="fa-solid fa-briefcase" aria-hidden="true"></i>
+              Open to Data Analyst and BI opportunities (Remote/Hybrid/Relocation)
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      (c) <span id="year"></span> Sai Cholik | Built with HTML, CSS, and JavaScript
+    </footer>
+  </main>
+
+  <div class="hire-popup-backdrop" id="hirePopupBackdrop" hidden></div>
+  <aside class="hire-popup" id="hirePopup" role="dialog" aria-modal="true" aria-labelledby="hirePopupTitle" hidden>
+    <button class="hire-popup-close" id="hirePopupClose" type="button" aria-label="Close popup">
+      <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+    </button>
+    <h3 id="hirePopupTitle">Contact Me</h3>
+    <p class="hire-popup-copy">Send a quick message or use any direct option below. Open to Remote, Hybrid, and Relocation opportunities.</p>
+    <form class="hire-popup-form" id="hirePopupForm" action="https://formspree.io/f/mbdayaoy" method="POST">
+      <input type="hidden" name="_subject" value="New Portfolio Message">
+      <input type="hidden" name="_next" value="https://vsaicholik.github.io/Saicholik_Vempati_Portfolio/">
+
+      <div class="field">
+        <label for="popupName">Your Name</label>
+        <input id="popupName" name="name" type="text" required>
+      </div>
+
+      <div class="field">
+        <label for="popupEmail">Your Email</label>
+        <input id="popupEmail" name="email" type="email" required>
+      </div>
+
+      <div class="field">
+        <label for="popupSubject">Subject</label>
+        <input id="popupSubject" name="subject" type="text" required>
+      </div>
+
+      <div class="field">
+        <label for="popupMessage">Message</label>
+        <textarea id="popupMessage" name="message" required></textarea>
+      </div>
+
+      <button class="btn btn-primary send-btn" type="submit">Send Message</button>
+    </form>
+    <p class="hire-popup-links-title">Direct options</p>
+    <div class="hire-popup-actions">
+      <a class="hire-popup-link" href="mailto:saicholikvempati@gmail.com">
+        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+        Email Me
+      </a>
+      <a class="hire-popup-link" href="tel:+19895728478">
+        <i class="fa-solid fa-phone" aria-hidden="true"></i>
+        Call Me
+      </a>
+      <a class="hire-popup-link" href="https://www.linkedin.com/in/saicholik-vempati-59a091328" target="_blank" rel="noopener">
+        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+        LinkedIn
+      </a>
+      <a class="hire-popup-link" href="assets/resume.pdf" target="_blank" rel="noopener">
+        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+        Resume
+      </a>
+    </div>
+  </aside>
+
+  <button class="assistant-fab" id="assistantFab" type="button" aria-label="Open profile assistant">
+    <i class="fa-solid fa-comments" aria-hidden="true"></i>
+    Ask Profile Assistant
+  </button>
+
+  <aside class="assistant-panel" id="assistantPanel" aria-labelledby="assistantTitle" hidden>
+    <div class="assistant-head">
+      <h3 id="assistantTitle">Profile Assistant</h3>
+      <button class="assistant-close" id="assistantClose" type="button" aria-label="Close assistant">
+        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+      </button>
+    </div>
+    <p class="assistant-subtitle">Quick answers about skills, projects, availability, and contact.</p>
+
+    <div class="assistant-suggestions" id="assistantSuggestions">
+      <button type="button" class="assistant-chip" data-question="What skills does Sai have?">Skills</button>
+      <button type="button" class="assistant-chip" data-question="What projects should I see first?">Top projects</button>
+      <button type="button" class="assistant-chip" data-question="Is Sai open to internships?">Availability</button>
+      <button type="button" class="assistant-chip" data-question="How can I contact Sai quickly?">Contact options</button>
+    </div>
+
+    <div class="assistant-chat" id="assistantChat" aria-live="polite">
+      <div class="assistant-msg assistant-msg-bot">Ask a question about my profile and I will answer instantly.</div>
+    </div>
+
+    <form class="assistant-input-row" id="assistantForm">
+      <input id="assistantInput" type="text" placeholder="Type your question..." autocomplete="off" required>
+      <button type="submit">Ask</button>
+    </form>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
