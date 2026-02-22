@@ -1,27 +1,27 @@
 :root {
-  --bg: #fff8f1;
+  --bg: #f5f7fb;
   --surface: #ffffff;
-  --surface-soft: #fff1e3;
-  --text: #2b1608;
-  --muted: #8a5a33;
-  --border: #f1d7bd;
-  --accent: #ff7a00;
-  --accent-2: #ff9f1a;
-  --accent-3: #ffc166;
-  --shadow: 0 18px 44px rgba(125, 64, 14, 0.16);
+  --surface-soft: #eef3ff;
+  --text: #1f2937;
+  --muted: #5f6f8a;
+  --border: #d9e2f2;
+  --accent: #5b8def;
+  --accent-2: #72c0e8;
+  --accent-3: #9fd8ee;
+  --shadow: 0 18px 44px rgba(51, 87, 148, 0.16);
 }
 
 html[data-theme="dark"] {
-  --bg: #060606;
-  --surface: #101010;
-  --surface-soft: #191919;
-  --text: #fff3e0;
-  --muted: #c79562;
-  --border: #33281c;
-  --accent: #ff8a1f;
-  --accent-2: #ffb347;
-  --accent-3: #ffd08a;
-  --shadow: 0 24px 58px rgba(0, 0, 0, 0.5);
+  --bg: #0b1220;
+  --surface: #111a2e;
+  --surface-soft: #1a2740;
+  --text: #eaf1ff;
+  --muted: #9fb0d0;
+  --border: #2b3a57;
+  --accent: #7aa6ff;
+  --accent-2: #5bc9d7;
+  --accent-3: #93d7e1;
+  --shadow: 0 24px 58px rgba(0, 0, 0, 0.48);
 }
 
 * {
@@ -624,7 +624,7 @@ html[data-theme="dark"] .grid-noise {
   height: 100%;
   object-fit: cover;
   object-position: center center;
-  background: #0b1020;
+  background: #15203a;
 }
 
 .project-banner.with-image span {
@@ -633,27 +633,27 @@ html[data-theme="dark"] .grid-noise {
 }
 
 .banner-1 {
-  background: linear-gradient(130deg, #0b2b6b, #2563eb, #22d3ee);
+  background: linear-gradient(130deg, #365a9d, #5b8def, #8ec5ff);
 }
 
 .banner-2 {
-  background: linear-gradient(130deg, #09316e, #0284c7, #0ea5e9);
+  background: linear-gradient(130deg, #2f5f87, #4b90c2, #78c5e4);
 }
 
 .banner-3 {
-  background: linear-gradient(130deg, #1d4ed8, #06b6d4, #fb923c);
+  background: linear-gradient(130deg, #4f4fa2, #5f8fe0, #8cc6d7);
 }
 
 .banner-4 {
-  background: linear-gradient(130deg, #0f172a, #334155, #64748b);
+  background: linear-gradient(130deg, #2a3346, #415270, #617b9e);
 }
 
 .banner-5 {
-  background: linear-gradient(130deg, #0f766e, #0ea5e9, #2dd4bf);
+  background: linear-gradient(130deg, #2f6f72, #4f9fb4, #7bc8bf);
 }
 
 .banner-6 {
-  background: linear-gradient(130deg, #7c2d12, #f97316, #fdba74);
+  background: linear-gradient(130deg, #73544a, #9f755f, #d2a487);
 }
 
 .project-body {
@@ -752,15 +752,15 @@ html[data-theme="dark"] .grid-noise {
 }
 
 .google-badge {
-  background: linear-gradient(135deg, #1a73e8, #34a853);
+  background: linear-gradient(135deg, #4c7fd6, #5ba6a0);
 }
 
 .excel-badge {
-  background: linear-gradient(135deg, #1f7244, #2ea44f);
+  background: linear-gradient(135deg, #2f7b63, #5eb08d);
 }
 
 .cloud-badge {
-  background: linear-gradient(135deg, #0ea5e9, #2563eb);
+  background: linear-gradient(135deg, #4ea8d6, #6f8fe8);
 }
 
 .cert-meta {
